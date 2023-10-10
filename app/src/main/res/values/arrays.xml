@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Apple Video Options -->
+    <string-array name="apple_videos_quality_entries" translatable="false">
+        <item>1080p H.264</item>
+        <item>1080p HEVC</item>
+        <item>1080p HEVC Dolby Vision</item>
+        <item>4K HEVC</item>
+        <item>4K HEVC Dolby Vision</item>
+    </string-array>
+    <string-array name="apple_videos_quality_values" translatable="false">
+        <item>VIDEO_1080_H264</item>
+        <item>VIDEO_1080_SDR</item>
+        <item>VIDEO_1080_HDR</item>
+        <item>VIDEO_4K_SDR</item>
+        <item>VIDEO_4K_HDR</item>
+    </string-array>
+    <string name="apple_videos_quality_default" translatable="false">VIDEO_1080_SDR</string>
+    <string-array name="apple_videos_data_usage_values" translatable="false">
+        <item>37GB</item>
+        <item>23GB</item>
+        <item>46GB</item>
+        <item>45GB</item>
+        <item>90GB</item>
+    </string-array>
+
+    <!-- Community Videos -->
+    <string-array name="comm1_videos_quality_entries" translatable="false">
+        <item>1080p H.264</item>
+        <item>1080p HEVC</item>
+        <item>4K HEVC</item>
+    </string-array>
+    <string-array name="comm1_videos_quality_values" translatable="false">
+        <item>VIDEO_1080_H264</item>
+        <item>VIDEO_1080_SDR</item>
+        <item>VIDEO_4K_SDR</item>
+    </string-array>
+    <string name="comm1_videos_quality_default" translatable="false">VIDEO_1080_SDR</string>
+
+    <!-- Video title or POI -->
+    <string-array name="interface_show_location_entries">
+        <item>Off</item>
+        <item>Location or title</item>
+        <item>Points of interest (available in many languages)</item>
+    </string-array>
+    <string-array name="interface_show_location_values" translatable="false">
+        <item>OFF</item>
+        <item>TITLE</item>
+        <item>POI</item>
+    </string-array>
+    <string name="interface_show_location_default" translatable="false">POI</string>
+
+    <!-- Use filename as location -->
+    <string-array name="filename_as_location_entries">
+        <item>Disabled</item>
+        <item>Use formatting</item>
+        <item>Use filename as-is</item>
+    </string-array>
+    <string-array name="filename_as_location_values" translatable="false">
+        <item>DISABLED</item>
+        <item>FORMATTED</item>
+        <item>SIMPLE</item>
+    </string-array>
+    <string name="filename_as_location_default" translatable="false">DISABLED</string>
+    <string-array name="filename_as_location_summary_entries">
+        <item>Disabled</item>
+        <item>Use formatting eg. \'japan-mount_fuji.mp4\' becomes \'Japan - Mount Fuji\'</item>
+        <item>Use filename as-is eg. \'Flying toward Mount Pilatus.mp4\' becomes \'Flying toward Mount Pilatus\'</item>
+    </string-array>
+
+    <!-- Message -->
+<!--    <string-array name="appearance_message_style_entries">-->
+<!--        <item>Off</item>-->
+<!--        <item>1 line of text</item>-->
+<!--        <item>2 lines of text</item>-->
+<!--    </string-array>-->
+<!--    <string-array name="appearance_message_style_values" translatable="false">-->
+<!--        <item>OFF</item>-->
+<!--        <item>ONE_LINE</item>-->
+<!--        <item>TWO_LINE</item>-->
+<!--    </string-array>-->
+<!--    <string name="appearance_message_style_default" translatable="false">OFF</string>-->
+
+    <!-- Playback speed -->
+    <string-array name="playback_speed_entries">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>1x (default)</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>1.75x</item>
+        <item>2x</item>
+        <item>2.5x</item>
+        <item>3x</item>
+        <item>3.5x</item>
+        <item>4x</item>
+        <item>5x</item>
+    </string-array>
+    <string-array name="playback_speed_values" translatable="false">
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>1</item>
+        <item>1.25</item>
+        <item>1.5</item>
+        <item>1.75</item>
+        <item>2</item>
+        <item>2.5</item>
+        <item>3</item>
+        <item>3.5</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="playback_speed_default" translatable="false">1</string>
+
+    <!-- Text sizes -->
+    <string-array name="appearance_clock_size_entries">
+        <item>36sp (default)</item>
+        <item>34sp</item>
+        <item>32sp</item>
+        <item>30sp</item>
+        <item>28sp</item>
+        <item>26sp</item>
+        <item>24sp</item>
+        <item>22sp</item>
+        <item>20sp</item>
+        <item>18sp</item>
+    </string-array>
+    <string-array name="appearance_clock_size_values" translatable="false">
+        <item>36</item>
+        <item>34</item>
+        <item>32</item>
+        <item>30</item>
+        <item>28</item>
+        <item>26</item>
+        <item>24</item>
+        <item>22</item>
+        <item>20</item>
+        <item>18</item>
+    </string-array>
+    <string name="appearance_clock_size_default" translatable="false">36</string>
+
+    <string-array name="appearance_location_size_entries">
+        <item>36sp</item>
+        <item>34sp</item>
+        <item>32sp</item>
+        <item>30sp</item>
+        <item>28sp</item>
+        <item>26sp</item>
+        <item>24sp</item>
+        <item>22sp</item>
+        <item>20sp</item>
+        <item>18sp (default)</item>
+    </string-array>
+    <string-array name="appearance_location_size_values" translatable="false">
+        <item>36</item>
+        <item>34</item>
+        <item>32</item>
+        <item>30</item>
+        <item>28</item>
+        <item>26</item>
+        <item>24</item>
+        <item>22</item>
+        <item>20</item>
+        <item>18</item>
+    </string-array>
+    <string name="appearance_location_size_default" translatable="false">18</string>
+
+    <string-array name="appearance_message_size_entries">
+        <item>36sp</item>
+        <item>34sp</item>
+        <item>32sp</item>
+        <item>30sp</item>
+        <item>28sp</item>
+        <item>26sp</item>
+        <item>24sp</item>
+        <item>22sp</item>
+        <item>20sp</item>
+        <item>18sp (default)</item>
+    </string-array>
+    <string-array name="appearance_message_size_values" translatable="false">
+        <item>36</item>
+        <item>34</item>
+        <item>32</item>
+        <item>30</item>
+        <item>28</item>
+        <item>26</item>
+        <item>24</item>
+        <item>22</item>
+        <item>20</item>
+        <item>18</item>
+    </string-array>
+    <string name="appearance_message_size_default" translatable="false">18</string>
+
+    <!-- Max. video length -->
+    <string-array name="playback_max_video_length_entries">
+        <item>No limit (default)</item>
+        <item>10 seconds</item>
+        <item>20 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>4 minutes</item>
+        <item>5 minutes</item>
+        <item>6 minutes</item>
+        <item>7 minutes</item>
+        <item>8 minutes</item>
+        <item>9 minutes</item>
+        <item>10 minutes</item>
+    </string-array>
+    <string-array name="playback_max_video_length_values" translatable="false">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+    </string-array>
+    <string name="playback_max_video_length_default" translatable="false">0</string>
+
+    <!-- Font selection -->
+    <string-array name="appearance_font_entries">
+        <item>Open Sans (Default)</item>
+        <item>Roboto</item>
+    </string-array>
+    <string-array name="appearance_font_values" translatable="false">
+        <item>open-sans</item>
+        <item>sans-serif</item>
+    </string-array>
+    <string name="appearance_font_default" translatable="false">open-sans</string>
+
+    <string-array name="appearance_font_weight_entries">
+        <item>100/Thin</item>
+        <item>200/Extra Light</item>
+        <item>300/Light (default)</item>
+        <item>400/Normal</item>
+        <item>500/Medium</item>
+        <item>600/Semi Bold</item>
+        <item>700/Bold</item>
+        <item>800/Extra Bold</item>
+        <item>900/Heavy</item>
+    </string-array>
+    <string-array name="appearance_font_weight_values" translatable="false">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+    </string-array>
+    <string name="appearance_font_weight_default" translatable="false">300</string>
+
+    <!-- Local Video Options -->
+    <string-array name="local_videos_search_type_entries">
+        <item>Media scanner</item>
+        <item>Folder access (legacy)</item>
+    </string-array>
+    <string-array name="local_videos_search_type_values" translatable="false">
+        <item>MEDIA_STORE</item>
+        <item>FOLDER_ACCESS</item>
+    </string-array>
+    <string name="local_videos_search_type_default" translatable="false">MEDIA_STORE</string>
+
+    <!-- Samba Video Options -->
+    <string-array name="samba_videos_smb_dialects_entries" translatable="false">
+        <item>v3.1.1</item>
+        <item>v3.0.2</item>
+        <item>v3.0</item>
+        <item>v2.1</item>
+        <item>v2.0.2</item>
+    </string-array>
+    <string-array name="samba_videos_smb_dialects_values" translatable="false">
+        <item>SMB_3_1_1</item>
+        <item>SMB_3_0_2</item>
+        <item>SMB_3_0</item>
+        <item>SMB_2_1</item>
+        <item>SMB_2_0_2</item>
+    </string-array>
+    <string-array name="samba_videos_smb_dialects_default" translatable="false">
+        <item>SMB_3_1_1</item>
+        <item>SMB_3_0_2</item>
+        <item>SMB_3_0</item>
+        <item>SMB_2_1</item>
+        <item>SMB_2_0_2</item>
+    </string-array>
+
+    <!-- Locale options -->
+    <string-array name="locale_menu_entries" translatable="false">
+        <item>System locale (default)</item>
+        <item>English</item>
+        <item>German</item>
+        <item>French</item>
+        <item>Russian</item>
+    </string-array>
+    <string-array name="locale_menu_values" translatable="false">
+        <item>default</item>
+        <item>en-IE</item>
+        <item>de-DE</item>
+        <item>fr-FR</item>
+        <item>ru-RU</item>
+    </string-array>
+    <string name="locale_menu_default" translatable="false">default</string>
+
+    <string-array name="locale_screensaver_entries" translatable="false">
+        <item>System locale (default)</item>
+        <item>English</item>
+        <item>German</item>
+        <item>Arabic</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+    </string-array>
+    <string-array name="locale_screensaver_values" translatable="false">
+        <item>default</item>
+        <item>en-IE</item>
+        <item>de-DE</item>
+        <item>ar</item>
+        <item>ja-JP</item>
+        <item>ru-RU</item>
+    </string-array>
+    <string name="locale_screensaver_default" translatable="false">default</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Video title or POI -->
+    <string-array name="interface_show_location_entries">
+        <item>Off</item>
+        <item>Location or title</item>
+        <item>Points of interest (available in many languages)</item>
+    </string-array>
+
+    <!-- Use filename as location -->
+    <string-array name="filename_as_location_entries">
+        <item>Disabled</item>
+        <item>Use formatting</item>
+        <item>Use filename as-is</item>
+    </string-array>
+    <string-array name="filename_as_location_summary_entries">
+        <item>Disabled</item>
+        <item>Use formatting eg. \'japan-mount_fuji.mp4\' becomes \'Japan - Mount Fuji\'</item>
+        <item>Use filename as-is eg. \'Flying toward Mount Pilatus.mp4\' becomes \'Flying toward Mount Pilatus\'</item>
+    </string-array>
+
+    <!-- Local Video Options -->
+    <string-array name="local_videos_search_type_entries">
+        <item>Media scanner</item>
+        <item>Folder access (legacy)</item>
+    </string-array>
+
+    <!-- Playback speed -->
+    <string-array name="playback_speed_entries">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>1x (default)</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>1.75x</item>
+        <item>2x</item>
+        <item>2.5x</item>
+        <item>3x</item>
+        <item>3.5x</item>
+        <item>4x</item>
+        <item>5x</item>
+    </string-array>
+
+    <!-- Text sizes -->
+    <string-array name="appearance_clock_size_entries">
+        <item>36sp (default)</item>
+        <item>34sp</item>
+        <item>32sp</item>
+        <item>30sp</item>
+        <item>28sp</item>
+        <item>26sp</item>
+        <item>24sp</item>
+        <item>22sp</item>
+        <item>20sp</item>
+        <item>18sp</item>
+    </string-array>
+    <string-array name="appearance_location_size_entries">
+        <item>36sp</item>
+        <item>34sp</item>
+        <item>32sp</item>
+        <item>30sp</item>
+        <item>28sp</item>
+        <item>26sp</item>
+        <item>24sp</item>
+        <item>22sp</item>
+        <item>20sp</item>
+        <item>18sp (default)</item>
+    </string-array>
+
+    <!-- Max. video length -->
+    <string-array name="playback_max_video_length_entries">
+        <item>No limit (default)</item>
+        <item>10 seconds</item>
+        <item>20 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>4 minutes</item>
+        <item>5 minutes</item>
+        <item>6 minutes</item>
+        <item>7 minutes</item>
+        <item>8 minutes</item>
+        <item>9 minutes</item>
+        <item>10 minutes</item>
+    </string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <PreferenceCategory app:title="@string/category_clock">
+
+                <CheckBoxPreference
+                    app:defaultValue="true"
+                    app:key="show_clock"
+                    app:summary="@string/appearance_show_clock_summary"
+                    app:title="@string/appearance_show_clock_title" />
+
+                <CheckBoxPreference
+                    app:defaultValue="false"
+                    app:key="clock_force_latin_digits"
+                    app:summary="@string/appearance_show_force_latin_digits_summary"
+                    app:title="@string/appearance_show_force_latin_digits_title" />
+
+                <ListPreference
+                    app:defaultValue="@string/appearance_clock_size_default"
+                    app:entries="@array/appearance_clock_size_entries"
+                    app:entryValues="@array/appearance_clock_size_values"
+                    app:key="clock_size"
+                    app:title="@string/appearance_clock_size_title"
+                    app:useSimpleSummaryProvider="true" />
+        </PreferenceCategory>
+</PreferenceScreen>

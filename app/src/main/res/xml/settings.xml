@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/category_settings">
+        <Preference
+            app:title="@string/settings_appearance_title"
+            app:summary="@string/settings_appearance_summary"
+            app:fragment="com.neilturner.aerialviews.ui.settings.AppearanceFragment"/>
+
+        <Preference
+            app:title="@string/settings_playlist_title"
+            app:summary="@string/settings_playlist_summary"
+            app:fragment="com.neilturner.aerialviews.ui.settings.PlaylistFragment"/>
+
+        <Preference
+            app:title="@string/settings_dpad_title"
+            app:summary="@string/settings_dpad_summary"
+            app:fragment="com.neilturner.aerialviews.ui.settings.DpadRemoteFragment"/>
+
+        <Preference
+            app:title="@string/settings_advanced_title"
+            app:summary="@string/settings_advanced_summary"
+            app:fragment="com.neilturner.aerialviews.ui.settings.AdvancedFragment"/>
+
+        <Preference
+            app:title="@string/settings_capabilities_title"
+            app:summary="@string/settings_capabilities_summary"
+            app:fragment="com.neilturner.aerialviews.ui.settings.CapabilitiesFragment"/>
+
+        <Preference
+            app:title="@string/settings_about_title"
+            app:summary="@string/settings_about_summary"
+            app:fragment="com.neilturner.aerialviews.ui.settings.AboutFragment"/>
+    </PreferenceCategory>
+
+<!--    <PreferenceCategory app:title="@string/category_actions">-->
+<!--        <Preference-->
+<!--            android:title="@string/general_import_export_settings_title"-->
+<!--            android:summary="@string/general_import_export_settings_summary"-->
+<!--            android:key="general_import_export_settings" />-->
+<!--    </PreferenceCategory>-->
+
+</PreferenceScreen>
